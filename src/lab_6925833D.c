@@ -3,8 +3,6 @@
 #include <string.h>
 
 #define MAX_LINE_LEN 1000
-#define FILE_1_PATH "src/lab/material/lab_/ans/file_1.txt"
-#define FILE_2_PATH "src/lab/material/lab_/ans/file_2.txt"
 
 int compare_files(  FILE *file_1, FILE *file_2, 
                     char *line_1, char *line_2, int *line_number )
